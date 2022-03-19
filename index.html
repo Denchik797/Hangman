@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<title>Виселица</title>
+		<style>
+			body {
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<br>
+		<div class="float-right">Неправильных ответов: <span id='mistakes'>0</span> из <span id='maxWrong'></span></div>
+		<div class="text-center">
+			<img id='hangmanPic' src="./img/0.jpg" alt="">
+			<br>
+			<br>
+			<p id="wordSpotlight">Слово, которое нужно угадать, идет здесь</p>
+			<div id="keyboard"></div>
+			<br>
+			<button class="btn btn-info" onClick="reset()">Сброс</button>
+		</div> 
+	</div>
+	<script src='./js/hangman.js'></script>
+	</body>
+</html>
