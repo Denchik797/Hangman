@@ -3,23 +3,28 @@ body {
 	color: #007BFF;
 	background-color: antiquewhite;
 }
+
 .btn {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	background-color: #007BFF;
 	color: rgb(255, 255, 255);
 }
+
 .float-right {
 	margin-top: 30px;
 }
+
 p {
 	color: #007BFF;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
 img {
 	margin-top: 60px;
 }
+
 .btn-info {
 	color: #007BFF;
 	color: rgb(255, 255, 255);
