@@ -8,21 +8,43 @@
 		<title>Виселица</title>
 		<style>
 			body {
-				font-size: 20px;
+				font-size: 24px;
+				color: #007BFF;
+				background-color: antiquewhite;
+			}
+			.btn {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				background-color: #007BFF;
+				color: rgb(255, 255, 255);
+			}
+			.float-right {
+				margin-top: 30px;
+			}
+			p {
+				color: #007BFF;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			img {
+				margin-top: 60px;
+			}
+			.btn-info {
+				color: #007BFF;
+				color: rgb(255, 255, 255);
+				font-size: 30px;
+				border-radius: 100px;
+				padding: 15px 30px 15px 30px;
 			}
 		</style>
 	</head>
 	<body>
 	<div class="container">
-		<br>
 		<div class="float-right">Неправильных ответов: <span id='mistakes'>0</span> из <span id='maxWrong'></span></div>
 		<div class="text-center">
 			<img id='hangmanPic' src="./img/0.jpg" alt="">
-			<br>
-			<br>
 			<p id="wordSpotlight">Слово, которое нужно угадать, идет здесь</p>
 			<div id="keyboard"></div>
-			<br>
 			<button class="btn btn-info" onClick="reset()">Сброс</button>
 		</div> 
 	</div>
